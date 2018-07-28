@@ -1,0 +1,60 @@
+# .gitignore
+
+# Protobuf
+*.proto
+
+# Database
+data/
+database/
+
+# Tests
+tests/results
+tests/results/*
+
+# Config
+.env
+config.json
+config.js
+config/
+
+# Logs
+logs/
+.logs/
+*.log
+*.logs
+npm-debug.log*
+
+# Temporary Files
+*.swp
+
+# Build Files
+bin/
+build/
+dist/
+demo
+wp-react-boilerplate-built
+wp-content/
+
+# Dependencies
+node_modules/
+
+# Cache
+.npm
+yarn-error.log
+.idea
+
+# Python
+.pyc
+*.pyc
+.project
+.pydevproject
+__pycache__
+
+# Operating System
+.DS_Store
+
+# Editor
+.vscode
+
+# Tests / Code Coverage
+coverage/
